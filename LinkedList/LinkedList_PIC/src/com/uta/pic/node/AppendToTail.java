@@ -21,7 +21,7 @@ public class AppendToTail {
 	}
 	
 	public static void main(String [] args){
-		int []a = {};
+		int []a = {1,2,3,4,3,4,5};
 		Node head = new AppendToTail().buildLinkedList(a);
 		new DisplayLinkedList().display(head);
 	}
